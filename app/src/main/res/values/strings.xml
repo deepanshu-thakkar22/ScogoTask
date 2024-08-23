@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Scogo_Task</string>
+    <string name="search_cryptos">Search cryptos</string>
+    <string name="crypto_name">Crypto Name</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="price_in_usd">Price in USD</string>
+    <string name="symbol">Symbol</string>
+    <string name="rank">Rank</string>
+    <string name="name">Name</string>
+    <string name="error_message">Unable To Fetch Data</string>
+    <string name="no_results_found">No results found</string>
+</resources>

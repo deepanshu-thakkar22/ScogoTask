@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/cryptoNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/name"/>
+
+    <TextView
+        android:id="@+id/cryptoSymbolDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cryptoNameDetail"
+        android:textSize="18sp"
+        android:text="@string/symbol"/>
+
+    <TextView
+        android:id="@+id/cryptoRankDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cryptoSymbolDetail"
+        android:textSize="18sp"
+        android:text="@string/rank"/>
+</RelativeLayout>
