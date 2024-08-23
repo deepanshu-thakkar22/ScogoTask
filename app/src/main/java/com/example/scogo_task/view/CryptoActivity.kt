@@ -83,13 +83,4 @@ class CryptoActivity : AppCompatActivity() {
             cryptoListAdapter.updateData(filteredList)
         }
     }
-
-
-//    private fun filterData(query: String) {
-//        val filteredList = viewModel.searchCryptoData(query)
-//        filteredList?.let {
-//            cryptoListAdapter.updateData(it)
-//        }
-//    }
-
 }

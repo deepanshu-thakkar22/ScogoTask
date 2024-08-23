@@ -13,13 +13,13 @@ class CryptoDetailActivity : AppCompatActivity() {
         binding = ActivityCryptoDetailsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val cryptoname = intent.getStringExtra("crypto_name")
-        val cryptosymbol = intent.getStringExtra("crypto_symbol")
-        val cryptorank = intent.getStringExtra("crypto_rank")
+        val cryptoName = intent.getStringExtra("crypto_name")
+        val cryptoSymbol = intent.getStringExtra("crypto_symbol")
+        val cryptoRank = intent.getStringExtra("crypto_rank")
 
-            binding.cryptoNameDetail.text = cryptoname
-            binding.cryptoSymbolDetail.text = cryptosymbol
-            binding.cryptoRankDetail.text = cryptorank
+            binding.cryptoNameDetail.text = cryptoName
+            binding.cryptoSymbolDetail.text = cryptoSymbol
+            binding.cryptoRankDetail.text = cryptoRank
     }
 
 }
